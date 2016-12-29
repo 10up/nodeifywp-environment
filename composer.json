@@ -1,0 +1,21 @@
+{
+  "name": "10up/nodeifywp-environment",
+  "description": "Environment for running NodeifyWP applications.",
+  "license": "GPLv2",
+  "authors": [
+      {
+          "name": "Taylor Lovett, 10up",
+          "email": "taylor.lovett@10up.com"
+      }
+  ],
+  "require": {
+    "johnpbloch/wordpress": "4.7"
+  },
+  "extra": {
+    "installer-paths": {
+      "wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"],
+      "wordpress-install-dir": "wordpress"
+    }
+  }
+}
