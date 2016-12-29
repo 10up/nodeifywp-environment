@@ -6,13 +6,13 @@
 <a href="http://10up.com/contact/"><img src="https://10updotcom-wpengine.s3.amazonaws.com/uploads/2016/10/10up-Github-Banner.png" width="850"></a>
 </p>
 
-# Requirements
+## Requirements
 
 * [Docker](https://www.docker.com/)
 * [Docker Compose](https://docs.docker.com/compose/)
 * [Composer](https://getcomposer.org/)
 
-# Setup
+## Setup
 
 The project contains a fully-fledged Docker based environment. Ensure your machine meets the project requirements before following these steps.
 
@@ -35,7 +35,7 @@ The project contains a fully-fledged Docker based environment. Ensure your machi
   * Database Password: *password*
 5. Activate the Twenty Sixteen React theme.
 
-# Environment
+## Environment
 
 The project environment contains the following:
 
@@ -46,6 +46,6 @@ The project environment contains the following:
 
 By default the project includes Redis for caching but does not instruct WordPress to do anything with it. If you want caching, you'll need the drop-ins, [WP Redis](https://github.com/pantheon-systems/wp-redis) and [Batcache](https://github.com/Automattic/batcache).
 
-# License
+## License
 
 This is free software; you can redistribute it and/or modify it under the terms of the [GNU General Public License](http://www.gnu.org/licenses/gpl-2.0.html) as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
