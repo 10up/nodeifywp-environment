@@ -1,6 +1,6 @@
 {
   "name": "10up/nodeifywp-environment",
-  "description": "Environment for running NodeifyWP applications.",
+  "description": "Dockerized WordPress environment for running NodeifyWP applications.",
   "license": "GPLv2",
   "authors": [
       {
@@ -9,7 +9,11 @@
       }
   ],
   "require": {
-    "johnpbloch/wordpress": "4.7"
+    "johnpbloch/wordpress": "4.7",
+    "10up/nodeifywp": "dev-master",
+    "10up/twentysixteenreact": "dev-master",
+    "wpackagist-plugin/debug-bar": "dev-trunk",
+    "wpackagist-plugin/debug-bar-extender": "dev-trunk"
   },
   "extra": {
     "installer-paths": {
@@ -17,5 +21,11 @@
       "wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"],
       "wordpress-install-dir": "wordpress"
     }
-  }
+  },
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"https://wpackagist.org"
+    }
+  ]
 }
