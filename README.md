@@ -31,7 +31,7 @@ The project contains a fully-fledged Docker based environment. Ensure your machi
   
   * MySQL Host: *mysql*
   * Database Name: *wordpress*
-  * Database Username: *wordpress*
+  * Database Username: *root*
   * Database Password: *password*
 5. Activate the Twenty Sixteen React theme.
 
