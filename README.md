@@ -29,10 +29,10 @@ The project contains a fully-fledged Docker based environment. Ensure your machi
 3. In your browser navigate to `http://localhost`
 4. Run through WordPress install steps. Here is the database information you'll need to use:
   
-  MySQL Host: *mysql*
-  Database Name: *wordpress*
-  Database Username: *wordpress*
-  Database Password: *password*
+  * MySQL Host: *mysql*
+  * Database Name: *wordpress*
+  * Database Username: *wordpress*
+  * Database Password: *password*
 5. Activate the Twenty Sixteen React theme.
 
 # Environment
