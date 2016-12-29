@@ -8,9 +8,9 @@
 
 # Requirements
 
-* Docker
-* Docker Compose
-* Composer
+* [Docker](https://www.docker.com/)
+* [Docker Compose](https://docs.docker.com/compose/)
+* [Composer](https://getcomposer.org/)
 
 # Setup
 
