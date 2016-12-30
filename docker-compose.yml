@@ -22,7 +22,6 @@ services:
     depends_on:
       - mysql
       - redis
-    build: .
     volumes:
       - "./wordpress:/var/www/html"
       - "./config/php-fpm/php.ini:/usr/local/etc/php/php.ini"
