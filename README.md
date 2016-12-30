@@ -16,7 +16,7 @@
 
 The project contains a fully-fledged Docker based environment. Ensure your machine meets the project requirements before following these steps.
 
-1. From the root of the repository, run the following in the command line:
+1. Clone the repository. From the root, run the following in the command line:
   
   `composer install`
 
@@ -33,7 +33,12 @@ The project contains a fully-fledged Docker based environment. Ensure your machi
   * Database Name: *wordpress*
   * Database Username: *root*
   * Database Password: *password*
-5. Activate the Twenty Sixteen React theme.
+5. Activate the Twenty Sixteen React theme and NodeifyWP plugin.
+6. From within the Twenty Sixteen React theme, run the following command:
+
+  `npm install`
+  
+6. Ensure pretty permalinks are enabled.
 
 ## Environment
 
