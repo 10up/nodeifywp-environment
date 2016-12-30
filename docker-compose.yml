@@ -18,6 +18,7 @@ services:
     ports:
       - "6379:6379"
   phpfpm:
+    image: 10up/php-v8:7.0-fpm
     depends_on:
       - mysql
       - redis
