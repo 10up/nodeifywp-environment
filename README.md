@@ -3,7 +3,7 @@
 [NodeifyWP](https://github.com/10up/nodeifywp) is a framework that let's you create isomorphic JavaScript applications with WordPress and PHP. The framework relies on the PHP extension [V8JS](https://github.com/phpv8/v8js) and [Google V8](https://developers.google.com/v8/) which can be time consuming to install and optimize. This repository contains a Dockerized environment for running NodeifyWP WordPress applications.
 
 <p align="center">
-<a href="http://10up.com/contact/"><img src="https://10updotcom-wpengine.s3.amazonaws.com/uploads/2016/10/10up-Github-Banner.png" width="850"></a>
+<a href="http://10up.com/contact/"><img src="https://10up.com/uploads/2016/10/10up-Github-Banner.png" width="850"></a>
 </p>
 
 ## Requirements
